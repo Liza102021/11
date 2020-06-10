@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1><div class="user">Даніч Віталій Миколайович</div></h1>
+    <div class="block">
+        <div class="img" id="img">
+            <img src="http://www.cyber.kharkov.ua/contentimages/photos/danich.jpg" width="450" height="500">
+        </div>
+        <div class="text">
+            <div class="block_1" id="a"><b>E-mail: </b></div>
+            <div class="block_1" id="b"><b>Вчене звання, науковий ступінь: </b></div>
+            <div class="block_1" id="c"><b>Освіта: </b></div>
+            <div class="block_1" id="d"><b>Викладає дисципліни: </b></div>
+            
+        </div>
+    </div>
+    <script>
+        class prepod{
+            constructor(a, b, c, d, e) {
+            this.a = "danichvitaly@gmail.com ";
+            this.b = "Професор, доктор економічних наук";
+            this.c = "Харківський державний університет імені О.М. Горького (1970); Східноукраїнський національний університет (2001)";
+            this.d = "Економічна кібернетика; Методологія дослідження соціально-економічних процесів; Технології проектування та адміністрування БД і СД; Системний аналіз";
+             
+            }
+    }
+    let pr = new prepod();
+    a.append(pr.a);
+    b.append(pr.b);
+    c.append(pr.c);
+    d.append(pr.d);
+    e.append(pr.e);
+    </script>
+
+
+</body>
+</html>
